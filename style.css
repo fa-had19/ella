@@ -1,6 +1,6 @@
 details{
   text-align: right;
-  border-radius: 45px;
+  border-radius: 40px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease;
   cursor: pointer;
@@ -19,14 +19,7 @@ details:hover{
 details:active{
     transform: translate(-1px);
 }
-.facebook-icon {
-    margin-right: 10px;
-  }
 
-  .login-container {
-    text-align: center;
-
-}
 body{
     background-image: url("ell.jpg");
     height: 50%;
@@ -46,7 +39,7 @@ body .box{
 }
 
 h1{
-    font-size: medium;
+    font-size: 12px;
     font-style: cursive;
 }
  body .box{
@@ -79,6 +72,7 @@ h1{
     left: 0;
     width: 30%;
     height: 30%;
+    align-items: center;
     transform-origin: center;
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i)* 45deg)) translateZ(200px);
@@ -92,7 +86,9 @@ h1{
     width: 100px;
     height: 100px;
     object-fit: cover;
+    align-items: center;
     border-radius: 35px;
+    
 }
 .box span img:hover{
     background-color: #3bd9d9;
