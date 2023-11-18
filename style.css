@@ -94,5 +94,10 @@ h1{
     object-fit: cover;
     border-radius: 35px;
 }
+.box span img:hover{
+    background-color: #3bd9d9;
+    box-shadow: 0px 15px 20px rgba(0, 22, 217, 0.993);
+}
+
 
 
